@@ -1,0 +1,89 @@
+# This is the parameter file for 
+# Worm the Game: Who Up Playing With They Worm?
+# :^)
+# *** ONE SPACE BETWEEN PARAMETER
+#     AND VALUE ***
+NAME1 Benjamin		# CHARACTER, First Name
+NAME2 J.					# CHARACTER, Middle Name
+NAME3 Worm				# CHARACTER, Last Name
+
+AGE 24						# INTEGER
+
+# PLAYER CLASS, STATS, & SKILLS
+#   Available classes:
+#     - JIMMO
+#       - JIMMO's live in the deep south
+#         and work for the government. They
+#         are known for busting loads on
+#         their stomachs and leaving it
+#         there to ward off enemies. Imagine
+#         the smell. They have no eyebrows.
+#       - Special items: 
+#           - CARABINER; a tool used for cliping
+#                        multiple items together
+#           - GLASSES; a tool used for inspecting
+#                      items more closely
+#       - Special moves: 
+#           - YELL; this move will disorient some
+#                   characters and turn on others.
+#           - CUM; this move lets you cum on your
+#                  stomach.
+#       - Special bonuses:
+#           - + 5 Survival
+#           - +10 Guns
+#     - CAMMO
+#       - ability foreskin 
+#     - ETHAN
+#       - 
+#     - WINKY
+#       - Eats beans. Rancid farts.
+#     - BENNY
+#       - 
+# Classes give a boost to certain stats and skills
+CLASS JIMMO				# CHARACTER
+
+# No skill can exceed 10 points,
+# the sum cannot exceed 40,
+# the sum must be greater than 35.
+# default is (with 5 extra points to distribute)
+#S 5   # STRENGTH
+#P 5   # PERCEPTION
+#E 5   # ENDURANCE
+#C 5   # CHARISMA
+#I 5   # INTELLIGENCE
+#A 5   # AGILITY
+#L 5   # LUCK
+
+S 9		# STRENGTH
+P 5		#	PERCEPTION
+E 10	# ENDURANCE
+C 2		# CHARISMA
+I 1		# INTELLIGENCE
+A 8		# AGILITY
+L 5		# LUCK
+
+# Base skills are determined by:
+# 2 + (2 x STAT) + (L/2)
+# You can pick up to two skills to place 15 points into
+#   - Mark with 'MAJOR'
+# You can pick up to three skills to place 10 points into
+#   - Mark with 'MINOR'
+# You can pick up to four skills to place 5 skills into
+#   - Mark with 'MISC.'
+# The rest of the skills should be marked with 'NULL.'
+# If you don't want a boost, in any stats, just put 'NULL.'
+#           SKILL        GOVERNING STAT
+#--------------------------------------------
+EXL MAJOR # EXPLOSIVES    STRENGTH
+GUN MAJOR # GUNS          PERCEPTION
+LOC MISC. # LOCKPICK      INTELLIGENCE
+MEL MINOR # MELEE         STRENGTH
+PIC MISC. # PICKPOCKET    AGILITY
+REP MINOR # REPAIR        PERCEPTION
+SCI MISC. # SCIENCE       INTELLIGENCE
+SNK MINOR # SNEAK         AGILITY
+SPE NULL. # SPEECH        CHARISMA
+STN NULL. # STENCH        ENDURANCE
+SUR MISC. # SURVIVAL      ENDURANCE
+WIS NULL. # WISDOM        INTELLIGENCE
+
